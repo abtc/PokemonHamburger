@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99EDA960BE5167DCB9F2BA09 /* libPods-PokemonHamburger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80681827339BCEA4F3F767F9 /* libPods-PokemonHamburger.a */; };
+		EC9984731D5B21D700180ED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9984721D5B21D700180ED9 /* AppDelegate.swift */; };
+		EC9984751D5B21D700180ED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9984741D5B21D700180ED9 /* ViewController.swift */; };
+		EC9984781D5B21D700180ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9984761D5B21D700180ED9 /* Main.storyboard */; };
+		EC99847A1D5B21D700180ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9984791D5B21D700180ED9 /* Assets.xcassets */; };
+		EC99847D1D5B21D700180ED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC99847B1D5B21D700180ED9 /* LaunchScreen.storyboard */; };
+		EC9984851D5B21EC00180ED9 /* PokemonHamburgerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9984841D5B21EC00180ED9 /* PokemonHamburgerButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		174800D162E5209B1CC7BAC9 /* Pods-PokemonHamburger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonHamburger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokemonHamburger/Pods-PokemonHamburger.debug.xcconfig"; sourceTree = "<group>"; };
+		80681827339BCEA4F3F767F9 /* libPods-PokemonHamburger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PokemonHamburger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9776FD0813985A7A01EA0F49 /* Pods-PokemonHamburger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonHamburger.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokemonHamburger/Pods-PokemonHamburger.release.xcconfig"; sourceTree = "<group>"; };
+		EC99846F1D5B21D700180ED9 /* PokemonHamburger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonHamburger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9984721D5B21D700180ED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC9984741D5B21D700180ED9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC9984771D5B21D700180ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC9984791D5B21D700180ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC99847C1D5B21D700180ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC99847E1D5B21D700180ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9984841D5B21EC00180ED9 /* PokemonHamburgerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonHamburgerButton.swift; sourceTree = "<group>"; };
+		EC9984861D5B23BB00180ED9 /* PokemonHamburger-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PokemonHamburger-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC99846C1D5B21D700180ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EDA960BE5167DCB9F2BA09 /* libPods-PokemonHamburger.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BB05F1F806F4544A8DC35C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80681827339BCEA4F3F767F9 /* libPods-PokemonHamburger.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		546CD5C821B0E3BC6BBB7334 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				174800D162E5209B1CC7BAC9 /* Pods-PokemonHamburger.debug.xcconfig */,
+				9776FD0813985A7A01EA0F49 /* Pods-PokemonHamburger.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC9984661D5B21D700180ED9 = {
+			isa = PBXGroup;
+			children = (
+				EC9984711D5B21D700180ED9 /* PokemonHamburger */,
+				EC9984701D5B21D700180ED9 /* Products */,
+				546CD5C821B0E3BC6BBB7334 /* Pods */,
+				0BB05F1F806F4544A8DC35C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC9984701D5B21D700180ED9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC99846F1D5B21D700180ED9 /* PokemonHamburger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9984711D5B21D700180ED9 /* PokemonHamburger */ = {
+			isa = PBXGroup;
+			children = (
+				EC9984721D5B21D700180ED9 /* AppDelegate.swift */,
+				EC9984741D5B21D700180ED9 /* ViewController.swift */,
+				EC9984841D5B21EC00180ED9 /* PokemonHamburgerButton.swift */,
+				EC9984761D5B21D700180ED9 /* Main.storyboard */,
+				EC9984791D5B21D700180ED9 /* Assets.xcassets */,
+				EC99847B1D5B21D700180ED9 /* LaunchScreen.storyboard */,
+				EC9984861D5B23BB00180ED9 /* PokemonHamburger-Bridging-Header.h */,
+				EC99847E1D5B21D700180ED9 /* Info.plist */,
+			);
+			path = PokemonHamburger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC99846E1D5B21D700180ED9 /* PokemonHamburger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9984811D5B21D700180ED9 /* Build configuration list for PBXNativeTarget "PokemonHamburger" */;
+			buildPhases = (
+				CD6258B656BA54C01D84C8C1 /* Check Pods Manifest.lock */,
+				EC99846B1D5B21D700180ED9 /* Sources */,
+				EC99846C1D5B21D700180ED9 /* Frameworks */,
+				EC99846D1D5B21D700180ED9 /* Resources */,
+				F64560D16EF21E8EE443B657 /* Embed Pods Frameworks */,
+				27DF7C9E7A40C95D2993164D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonHamburger;
+			productName = PokemonHamburger;
+			productReference = EC99846F1D5B21D700180ED9 /* PokemonHamburger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC9984671D5B21D700180ED9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Windward;
+				TargetAttributes = {
+					EC99846E1D5B21D700180ED9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EC99846A1D5B21D700180ED9 /* Build configuration list for PBXProject "PokemonHamburger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC9984661D5B21D700180ED9;
+			productRefGroup = EC9984701D5B21D700180ED9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC99846E1D5B21D700180ED9 /* PokemonHamburger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC99846D1D5B21D700180ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC99847D1D5B21D700180ED9 /* LaunchScreen.storyboard in Resources */,
+				EC99847A1D5B21D700180ED9 /* Assets.xcassets in Resources */,
+				EC9984781D5B21D700180ED9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27DF7C9E7A40C95D2993164D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokemonHamburger/Pods-PokemonHamburger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD6258B656BA54C01D84C8C1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F64560D16EF21E8EE443B657 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokemonHamburger/Pods-PokemonHamburger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC99846B1D5B21D700180ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9984751D5B21D700180ED9 /* ViewController.swift in Sources */,
+				EC9984851D5B21EC00180ED9 /* PokemonHamburgerButton.swift in Sources */,
+				EC9984731D5B21D700180ED9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC9984761D5B21D700180ED9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9984771D5B21D700180ED9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC99847B1D5B21D700180ED9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC99847C1D5B21D700180ED9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC99847F1D5B21D700180ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC9984801D5B21D700180ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC9984821D5B21D700180ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 174800D162E5209B1CC7BAC9 /* Pods-PokemonHamburger.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokemonHamburger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Windward.PokemonHamburger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/PokemonHamburger/PokemonHamburger-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		EC9984831D5B21D700180ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9776FD0813985A7A01EA0F49 /* Pods-PokemonHamburger.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokemonHamburger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Windward.PokemonHamburger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/PokemonHamburger/PokemonHamburger-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC99846A1D5B21D700180ED9 /* Build configuration list for PBXProject "PokemonHamburger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC99847F1D5B21D700180ED9 /* Debug */,
+				EC9984801D5B21D700180ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9984811D5B21D700180ED9 /* Build configuration list for PBXNativeTarget "PokemonHamburger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9984821D5B21D700180ED9 /* Debug */,
+				EC9984831D5B21D700180ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC9984671D5B21D700180ED9 /* Project object */;
+}
